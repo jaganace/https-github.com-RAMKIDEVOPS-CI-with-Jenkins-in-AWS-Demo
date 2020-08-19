@@ -1,13 +1,13 @@
 pipeline {
         agent any
         environment {
-            registry = "loveythakral/sprint6dockerjenkins"
+            registry = "jaganace126/tomcatfirst"
             registryCredential = 'dockerhubcredentials'
             dockerImage = ''
-		PROJECT_ID = 'devops-super10x'
- 		CLUSTER_NAME = 'sprint6-kubectl-cluster'
- 		LOCATION = 'us-central1-c'
- 		CREDENTIALS_ID = 'sprint6-k8'
+		PROJECT_ID = 'sonorous-house-265802'
+ 		CLUSTER_NAME = 'kubeclusterjagan'
+ 		LOCATION = 'europe-north1-a'
+ 		CREDENTIALS_ID = 'sonorous-house-265802'
         }
 		
 	    stages {	
