@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tomcatpod
-        image: jaganace126/tomcatfirst:tagversion 
+        image: jaganace126/dockerjenkinskube:tagversion 
         ports:
         - containerPort: 8080
 ---
