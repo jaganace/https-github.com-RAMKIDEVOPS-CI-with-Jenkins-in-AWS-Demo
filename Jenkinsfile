@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "jaganace126/tomcatfirst"
+            registry = "jaganace126/dockerjenkinskube"
             registryCredential = 'dockerhubcredentials'
             dockerImage = ''
 		PROJECT_ID = 'sonorous-house-265802'
