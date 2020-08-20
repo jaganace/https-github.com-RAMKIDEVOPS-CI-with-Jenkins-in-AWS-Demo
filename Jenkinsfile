@@ -6,7 +6,7 @@ pipeline {
             dockerImage = ''
 		PROJECT_ID = 'sonorous-house-265802'
  		CLUSTER_NAME = 'kubeclusterjagan'
- 		LOCATION = 'europe-north1-a'
+ 		LOCATION = 'us-central1-c'
  		CREDENTIALS_ID = 'sonorous-house-265802'
         }
 		
